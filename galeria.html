@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!--
+  ===========================================================================
+  CONTRATO DE DIRECCIÓN — HECISA (Hispano Europea de Comercio e Industria)
+  THESIS: La web no habla del catálogo: la web ES el catálogo. Cada familia es
+    una hoja, el menú son las pestañas de la carpeta de anillas y los 48 PDF
+    del dominio dejan de ser adjuntos enterrados para ser el registro
+    documental del sitio. Rechaza la página que ship todo fabricante de
+    filtración: foto de planta al atardecer, degradado azul encima, titular
+    sans en blanco, tres tarjetas con iconito y carrusel de logos.
+  OWN-WORLD: Hoja blanca de verdad (#ffffff, nunca crema) de extremo a
+    extremo. Tinta ultramar #1709b3 muestreada píxel a píxel del logotipo del
+    propio dominio. Oliva #AAB132 como COLOR DE FAMILIA que ocupa campos
+    enteros —raíl de pestañas, banda de cabecera de hoja, cajetín— porque en
+    una carpeta técnica el color identifica la sección; nunca como acento
+    suelto y nunca bajo texto pequeño. Azul #85B2DE donde estaba en el
+    original: la referencia cruzada. Saira de eje variable para títulos de
+    hoja, siglas de serie y cifras tabulares; Libre Franklin, linaje Franklin
+    Gothic de los catálogos de bienes de equipo, para la prosa. Filetes de
+    cota con extremo de flecha en lugar de bordes de tarjeta. Pictogramas
+    dibujados con la gramática del plano. Ninguna sombra sin desplazamiento,
+    ningún cristal, ningún icono de librería.
+  STORY: El ingeniero de proyecto ve la gama con sus caudales y micras y se
+    lleva el PDF. El mantenedor teclea el código de la placa y llega a su hoja
+    en un clic. El comprador internacional cambia a EN y ve NCAGE, ISO 9001 y
+    treinta y seis clientes reales.
+  FIRST VIEWPORT: Cabecera de hoja con el cajetín a la izquierda y el buscador
+    de serie a la derecha con las siglas reales como fichas pulsables; debajo,
+    a sangre, la tabla-índice de la gama con serie, caudal, micra y silueta.
+    En móvil, barra de pulgar con llamar / escribir / catálogos.
+  FORM: "La Hoja de Catálogo", dirección 7 de 7 de la lista propia, sin
+    staging dealt (tirada degradada: el servicio de retadores no respondió y
+    no hubo cartas de catálogo). Semilla 8d1fcfc9.
+  ===========================================================================
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Galería de equipos — HECISA</title>
+<meta name="description" content="Cuarenta y seis fotografías de filtros autolimpiantes HSC, HSBI, HSBIA y HSBIL, filtros de cesta HFC, coalescentes, skids de filtración, ciclones y mezcladores estáticos fabricados por HECISA.">
+<meta name="author" content="Hispano Europea de Comercio e Industria, S.L.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://www.hecisa.com/galeria.html">
+<link rel="alternate" hreflang="es" href="https://www.hecisa.com/galeria.html">
+<link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/gallery.html">
+<link rel="alternate" hreflang="x-default" href="https://www.hecisa.com/galeria.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="HECISA">
+<meta property="og:title" content="Galería de equipos — HECISA">
+<meta property="og:description" content="Cuarenta y seis fotografías de filtros autolimpiantes HSC, HSBI, HSBIA y HSBIL, filtros de cesta HFC, coalescentes, skids de filtración, ciclones y mezcladores estáticos fabricados por HECISA.">
+<meta property="og:url" content="https://www.hecisa.com/galeria.html">
+<meta property="og:image" content="https://www.hecisa.com/assets/img/galeria/galeria24.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo-14.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300..800&family=Saira:wdth,wght@62..125,300..900&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.className+=" js";</script>
+</head>
+<body>
+
+<a class="salta-al-contenido" href="#principal">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="cajetin">
+    <a class="marca" href="index.html" aria-label="HECISA — inicio">
+      <img class="marca__logo" src="assets/img/logo-14.png" alt="" width="194" height="74" fetchpriority="high">
+      <span class="marca__txt">
+        <span class="marca__nombre">HECISA</span>
+        <span class="marca__lema">Expertos en filtración desde 1984</span>
+      </span>
+    </a>
+    <div class="cajetin__util">
+      <div class="buscaserie" data-vacio="Ninguna serie coincide. Prueba con HSC, HSBI o MFC.">
+        <div class="buscaserie__campo">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5"/><path d="m10.5 10.5 4.2 4.2"/></svg>
+          <label class="oculto-visual" for="q-serie">Buscar serie…</label>
+          <input id="q-serie" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar serie…">
+        </div>
+        <ul class="buscaserie__lista" hidden></ul>
+      </div>
+      <p class="idioma" aria-label="Idioma" style="margin:0">
+        <a href="#" aria-current="true" hreflang="es" aria-disabled="true">ES</a>
+        <a href="en/gallery.html" hreflang="en">EN</a>
+      </p>
+      <a class="tel-cajetin" href="tel:+34916967039"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.2 2.8H3.4L2.5 5.6c0 6.6 5.3 11.9 11.9 11.9l2.8-.9v-2.8l-3.7-1.4-1.9 1.9a13 13 0 0 1-4.6-4.6l1.9-1.9L6.2 2.8Z"/></svg><span>+34 916 967 039</span></a>
+      <button class="hamburguesa" type="button" aria-expanded="false" aria-controls="carpeta">
+        <span class="hamburguesa__barras"></span>Menú
+      </button>
+    </div>
+  </div>
+  <nav class="rail" aria-label="Principal">
+    <div class="rail__inner">
+        <a class="pestana" href="gama.html">Gama</a>
+        <div class="rail__grupo">
+          <button class="pestana" type="button" aria-expanded="false" aria-controls="panel-autolimpiantes">Autolimpiantes<svg class="pestana__flecha" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+          <div class="panel" id="panel-autolimpiantes" hidden>
+            <div class="panel__col">
+              <p class="panel__tit">Filtros autolimpiantes</p>
+              <a class="panel__enlace" href="autolimpiantes.html#hsc"><span class="panel__cod">HSC</span><span>Filtros autolimpiantes a contralavado</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbi"><span class="panel__cod">HSBI</span><span>Filtros autolimpiantes por rascado</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbia"><span class="panel__cod">HSBIA</span><span>Autolimpiantes con evacuación hidrodinámica</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbil"><span class="panel__cod">HSBIL</span><span>Autolimpiantes por rascado y succión</span></a>
+            </div>
+            <div class="panel__col">
+              <p class="panel__tit">Por caudal</p>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbi"><span class="panel__cod">10–3.000</span><span>m³/h · HSBI, rascado</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsc"><span class="panel__cod">20–22.000</span><span>m³/h · HSC, contralavado</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbil"><span class="panel__cod">30–10.000</span><span>m³/h · HSBIL, rascado y succión</span></a>
+              <a class="panel__enlace" href="autolimpiantes.html#hsbia"><span class="panel__cod">100–10.000</span><span>m³/h · HSBIA, evacuación hidrodinámica</span></a>
+            </div>
+            <p class="panel__pie"><a class="btn" href="autolimpiantes.html">Abrir la hoja completa <svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></a></p>
+          </div>
+        </div>
+        <div class="rail__grupo">
+          <button class="pestana" type="button" aria-expanded="false" aria-controls="panel-filtros">Filtros y cartuchos<svg class="pestana__flecha" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+          <div class="panel" id="panel-filtros" hidden>
+            <div class="panel__col">
+              <p class="panel__tit">Manuales y de cartucho</p>
+              <a class="panel__enlace" href="filtros.html#hfc"><span class="panel__cod">HFC</span><span>Filtros de cesta</span></a>
+              <a class="panel__enlace" href="filtros.html#hdf"><span class="panel__cod">HDF</span><span>Filtro de cartucho de servicio general</span></a>
+              <a class="panel__enlace" href="filtros.html#hfx"><span class="panel__cod">HFX</span><span>Filtro de combustible</span></a>
+              <a class="panel__enlace" href="filtros.html#ffvg"><span class="panel__cod">FFVG</span><span>Filtros coalescentes y separadores FFV, FFVG, MMAG y MMAH</span></a>
+              <a class="panel__enlace" href="filtros.html#hif"><span class="panel__cod">HIF</span><span>Filtros de cartuchos HIF, MMA y MMG</span></a>
+            </div>
+            <p class="panel__pie"><a class="btn" href="filtros.html">Abrir la hoja completa <svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></a></p>
+          </div>
+        </div>
+        <div class="rail__grupo">
+          <button class="pestana" type="button" aria-expanded="false" aria-controls="panel-mezcladores">Mezcla e instrumentación<svg class="pestana__flecha" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+          <div class="panel" id="panel-mezcladores" hidden>
+            <div class="panel__col">
+              <p class="panel__tit">Mezcla e instrumentación</p>
+              <a class="panel__enlace" href="mezcladores.html#mezcladores-estaticos"><span class="panel__cod">Estáticos</span><span>Mezcladores estáticos</span></a>
+              <a class="panel__enlace" href="mezcladores.html#mfc"><span class="panel__cod">MFC</span><span>Acondicionadores magnéticos de combustible</span></a>
+              <a class="panel__enlace" href="mezcladores.html#dpg"><span class="panel__cod">DPG</span><span>Manómetros de presión diferencial</span></a>
+              <a class="panel__enlace" href="mezcladores.html#dpt"><span class="panel__cod">DPT-116</span><span>Transmisor de presión diferencial</span></a>
+            </div>
+            <p class="panel__pie"><a class="btn" href="mezcladores.html">Abrir la hoja completa <svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></a></p>
+          </div>
+        </div>
+        <a class="pestana" href="ingenieria.html">Ingeniería</a>
+        <div class="rail__grupo">
+          <button class="pestana" type="button" aria-expanded="false" aria-controls="panel-empresa" data-activa="si" aria-current="true">Empresa<svg class="pestana__flecha" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+          <div class="panel" id="panel-empresa" hidden>
+            <div class="panel__col">
+              <p class="panel__tit">La casa</p>
+              <a class="panel__enlace" href="empresa.html"><span class="panel__cod">1984</span><span>Historia, medios y calidad</span></a>
+              <a class="panel__enlace" href="clientes.html"><span class="panel__cod">36</span><span>Clientes y referencias</span></a>
+              <a class="panel__enlace" href="galeria.html"><span class="panel__cod">46</span><span>Galería de equipos</span></a>
+              <a class="panel__enlace" href="noticias.html"><span class="panel__cod">2016</span><span>Noticias</span></a>
+            </div>
+            <p class="panel__pie"><a class="btn" href="empresa.html">Abrir la hoja completa <svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></a></p>
+          </div>
+        </div>
+        <a class="pestana" href="descargas.html">Descargas</a>
+        <a class="pestana" href="contacto.html">Contacto</a>
+    </div>
+  </nav>
+</header>
+
+<div class="carpeta" id="carpeta" hidden>
+  <div class="carpeta__barra">
+    <span class="marca__nombre">HECISA</span>
+    <button class="carpeta__cerrar" type="button" data-cierra-carpeta><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1.5 1.5 11 11M12.5 1.5l-11 11"/></svg>Cerrar</button>
+  </div>
+  <div class="carpeta__cuerpo">
+    <nav aria-label="Principal, móvil">
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="gama.html"><span class="divisor__marca"></span>Gama</a>
+          
+        </div>
+        
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="autolimpiantes.html"><span class="divisor__marca"></span>Autolimpiantes</a>
+          <button class="divisor__abrir" type="button" aria-expanded="false" aria-controls="div-autolimpiantes" aria-label="Desplegar Autolimpiantes"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+        </div>
+        <ul class="divisor__lista" id="div-autolimpiantes" hidden>
+          <li><a href="autolimpiantes.html#hsc"><span class="buscaserie__cod">HSC</span><span>Filtros autolimpiantes a contralavado</span></a></li>
+          <li><a href="autolimpiantes.html#hsbi"><span class="buscaserie__cod">HSBI</span><span>Filtros autolimpiantes por rascado</span></a></li>
+          <li><a href="autolimpiantes.html#hsbia"><span class="buscaserie__cod">HSBIA</span><span>Autolimpiantes con evacuación hidrodinámica</span></a></li>
+          <li><a href="autolimpiantes.html#hsbil"><span class="buscaserie__cod">HSBIL</span><span>Autolimpiantes por rascado y succión</span></a></li>
+          <li><a href="autolimpiantes.html#hsbi"><span class="buscaserie__cod">10–3.000</span><span>m³/h · HSBI, rascado</span></a></li>
+          <li><a href="autolimpiantes.html#hsc"><span class="buscaserie__cod">20–22.000</span><span>m³/h · HSC, contralavado</span></a></li>
+          <li><a href="autolimpiantes.html#hsbil"><span class="buscaserie__cod">30–10.000</span><span>m³/h · HSBIL, rascado y succión</span></a></li>
+          <li><a href="autolimpiantes.html#hsbia"><span class="buscaserie__cod">100–10.000</span><span>m³/h · HSBIA, evacuación hidrodinámica</span></a></li>
+        </ul>
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="filtros.html"><span class="divisor__marca"></span>Filtros y cartuchos</a>
+          <button class="divisor__abrir" type="button" aria-expanded="false" aria-controls="div-filtros" aria-label="Desplegar Filtros y cartuchos"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+        </div>
+        <ul class="divisor__lista" id="div-filtros" hidden>
+          <li><a href="filtros.html#hfc"><span class="buscaserie__cod">HFC</span><span>Filtros de cesta</span></a></li>
+          <li><a href="filtros.html#hdf"><span class="buscaserie__cod">HDF</span><span>Filtro de cartucho de servicio general</span></a></li>
+          <li><a href="filtros.html#hfx"><span class="buscaserie__cod">HFX</span><span>Filtro de combustible</span></a></li>
+          <li><a href="filtros.html#ffvg"><span class="buscaserie__cod">FFVG</span><span>Filtros coalescentes y separadores FFV, FFVG, MMAG y MMAH</span></a></li>
+          <li><a href="filtros.html#hif"><span class="buscaserie__cod">HIF</span><span>Filtros de cartuchos HIF, MMA y MMG</span></a></li>
+        </ul>
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="mezcladores.html"><span class="divisor__marca"></span>Mezcla e instrumentación</a>
+          <button class="divisor__abrir" type="button" aria-expanded="false" aria-controls="div-mezcladores" aria-label="Desplegar Mezcla e instrumentación"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+        </div>
+        <ul class="divisor__lista" id="div-mezcladores" hidden>
+          <li><a href="mezcladores.html#mezcladores-estaticos"><span class="buscaserie__cod">Estáticos</span><span>Mezcladores estáticos</span></a></li>
+          <li><a href="mezcladores.html#mfc"><span class="buscaserie__cod">MFC</span><span>Acondicionadores magnéticos de combustible</span></a></li>
+          <li><a href="mezcladores.html#dpg"><span class="buscaserie__cod">DPG</span><span>Manómetros de presión diferencial</span></a></li>
+          <li><a href="mezcladores.html#dpt"><span class="buscaserie__cod">DPT-116</span><span>Transmisor de presión diferencial</span></a></li>
+        </ul>
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="ingenieria.html"><span class="divisor__marca"></span>Ingeniería</a>
+          
+        </div>
+        
+      </div>
+      <div class="divisor" data-activo="si">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="empresa.html"><span class="divisor__marca"></span>Empresa</a>
+          <button class="divisor__abrir" type="button" aria-expanded="false" aria-controls="div-empresa" aria-label="Desplegar Empresa"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1 1.6 5 5 5-5"/></svg></button>
+        </div>
+        <ul class="divisor__lista" id="div-empresa" hidden>
+          <li><a href="empresa.html"><span class="buscaserie__cod">1984</span><span>Historia, medios y calidad</span></a></li>
+          <li><a href="clientes.html"><span class="buscaserie__cod">36</span><span>Clientes y referencias</span></a></li>
+          <li><a href="galeria.html"><span class="buscaserie__cod">46</span><span>Galería de equipos</span></a></li>
+          <li><a href="noticias.html"><span class="buscaserie__cod">2016</span><span>Noticias</span></a></li>
+        </ul>
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="descargas.html"><span class="divisor__marca"></span>Descargas</a>
+          
+        </div>
+        
+      </div>
+      <div class="divisor" data-activo="no">
+        <div class="divisor__cab">
+          <a class="divisor__tab" href="contacto.html"><span class="divisor__marca"></span>Contacto</a>
+          
+        </div>
+        
+      </div>
+    </nav>
+    <div class="carpeta__util">
+      <a class="btn btn--accion" href="tel:+34916967039"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.2 2.8H3.4L2.5 5.6c0 6.6 5.3 11.9 11.9 11.9l2.8-.9v-2.8l-3.7-1.4-1.9 1.9a13 13 0 0 1-4.6-4.6l1.9-1.9L6.2 2.8Z"/></svg>+34 916 967 039</a>
+      <a class="btn" href="#" data-correo="infoweb|hecisa.com"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="1.8" y="4" width="16.4" height="12" /><path d="m1.8 4.6 8.2 6.2 8.2-6.2"/></svg>Escribir</a>
+      <a class="btn" href="en/gallery.html">English</a>
+    </div>
+  </div>
+</div>
+
+<nav class="pulgar" aria-label="Acciones rápidas">
+  <a class="principal" href="tel:+34916967039"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.2 2.8H3.4L2.5 5.6c0 6.6 5.3 11.9 11.9 11.9l2.8-.9v-2.8l-3.7-1.4-1.9 1.9a13 13 0 0 1-4.6-4.6l1.9-1.9L6.2 2.8Z"/></svg>Llamar</a>
+  <a href="#" data-correo="infoweb|hecisa.com"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="1.8" y="4" width="16.4" height="12" /><path d="m1.8 4.6 8.2 6.2 8.2-6.2"/></svg><span>Escribir</span></a>
+  <a href="descargas.html"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 1v9"/><path d="m4.4 6.8 3.6 3.8 3.6-3.8" fill="currentColor" stroke="none"/><path d="M1.4 13.6h13.2"/></svg>Catálogos</a>
+</nav>
+
+<main id="principal">
+<div class="envoltorio">
+<div class="hoja hoja--ancha">
+<header class="hoja__cab">
+  <ol class="hoja__ruta">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="empresa.html">Empresa</a></li>
+    <li>Galería</li>
+  </ol>
+  <h1 class="hoja__tit">Cuarenta y seis equipos, fotografiados en taller y en planta</h1>
+  <p class="hoja__entrada">Autolimpiantes, filtros de cesta y cartucho, coalescentes, skids, ciclones y mezcladores estáticos. Los pies son los originales del archivo de HECISA.</p>
+  <p class="hoja__pie-cab">
+    <span>46 fotografías</span>
+    <span>Pulsa para ampliar</span>
+    <span>Hoja 09 de 12</span>
+  </p>
+</header>
+  <div class="tira" style="padding-top:var(--s6);padding-bottom:var(--s8)">
+    <ul class="plancha" style="list-style:none">
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria01.jpg" data-pie="Sede de HECISA en Calidad 24, Polígono Los Olivos, Getafe" aria-label="Ampliar: Sede de HECISA en Calidad 24, Polígono Los Olivos, Getafe">
+          <img src="assets/img/galeria/galeria01.jpg" alt="Sede de HECISA en Calidad 24, Polígono Los Olivos, Getafe" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">01</span>Sede de HECISA en Calidad 24, Polígono Los Olivos, Getafe</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria02.jpg" data-pie="Filtro autolimpiante serie HSC-J" aria-label="Ampliar: Filtro autolimpiante serie HSC-J">
+          <img src="assets/img/galeria/galeria02.jpg" alt="Filtro autolimpiante serie HSC-J" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">02</span>Filtro autolimpiante serie HSC-J</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria03.jpg" data-pie="Filtro autolimpiante serie HSC" aria-label="Ampliar: Filtro autolimpiante serie HSC">
+          <img src="assets/img/galeria/galeria03.jpg" alt="Filtro autolimpiante serie HSC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">03</span>Filtro autolimpiante serie HSC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria04.jpg" data-pie="Filtro autolimpiante serie HSC2" aria-label="Ampliar: Filtro autolimpiante serie HSC2">
+          <img src="assets/img/galeria/galeria04.jpg" alt="Filtro autolimpiante serie HSC2" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">04</span>Filtro autolimpiante serie HSC2</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria05.jpg" data-pie="Filtro autolimpiante serie HSB" aria-label="Ampliar: Filtro autolimpiante serie HSB">
+          <img src="assets/img/galeria/galeria05.jpg" alt="Filtro autolimpiante serie HSB" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">05</span>Filtro autolimpiante serie HSB</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria06.jpg" data-pie="Filtro autolimpiante serie HSB-J" aria-label="Ampliar: Filtro autolimpiante serie HSB-J">
+          <img src="assets/img/galeria/galeria06.jpg" alt="Filtro autolimpiante serie HSB-J" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">06</span>Filtro autolimpiante serie HSB-J</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria07.jpg" data-pie="Filtro autolimpiante serie HSBI-J" aria-label="Ampliar: Filtro autolimpiante serie HSBI-J">
+          <img src="assets/img/galeria/galeria07.jpg" alt="Filtro autolimpiante serie HSBI-J" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">07</span>Filtro autolimpiante serie HSBI-J</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria08.jpg" data-pie="Filtro autolimpiante serie HSBI-J" aria-label="Ampliar: Filtro autolimpiante serie HSBI-J">
+          <img src="assets/img/galeria/galeria08.jpg" alt="Filtro autolimpiante serie HSBI-J" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">08</span>Filtro autolimpiante serie HSBI-J</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria09.jpg" data-pie="Filtro autolimpiante serie HSBIA" aria-label="Ampliar: Filtro autolimpiante serie HSBIA">
+          <img src="assets/img/galeria/galeria09.jpg" alt="Filtro autolimpiante serie HSBIA" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">09</span>Filtro autolimpiante serie HSBIA</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria10.jpg" data-pie="Filtro autolimpiante serie HSBI de accionamiento manual" aria-label="Ampliar: Filtro autolimpiante serie HSBI de accionamiento manual">
+          <img src="assets/img/galeria/galeria10.jpg" alt="Filtro autolimpiante serie HSBI de accionamiento manual" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">10</span>Filtro autolimpiante serie HSBI de accionamiento manual</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria11.jpg" data-pie="Filtro HSBI montado en skid" aria-label="Ampliar: Filtro HSBI montado en skid">
+          <img src="assets/img/galeria/galeria11.jpg" alt="Filtro HSBI montado en skid" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">11</span>Filtro HSBI montado en skid</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria12.jpg" data-pie="Filtro serie HSBI para servicio naval" aria-label="Ampliar: Filtro serie HSBI para servicio naval">
+          <img src="assets/img/galeria/galeria12.jpg" alt="Filtro serie HSBI para servicio naval" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">12</span>Filtro serie HSBI para servicio naval</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria13.jpg" data-pie="Filtro autolimpiante serie HSBIL" aria-label="Ampliar: Filtro autolimpiante serie HSBIL">
+          <img src="assets/img/galeria/galeria13.jpg" alt="Filtro autolimpiante serie HSBIL" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">13</span>Filtro autolimpiante serie HSBIL</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria14.jpg" data-pie="Filtro autolimpiante serie HSBIL" aria-label="Ampliar: Filtro autolimpiante serie HSBIL">
+          <img src="assets/img/galeria/galeria14.jpg" alt="Filtro autolimpiante serie HSBIL" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">14</span>Filtro autolimpiante serie HSBIL</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria15.jpg" data-pie="Filtro autolimpiante serie HSBIL" aria-label="Ampliar: Filtro autolimpiante serie HSBIL">
+          <img src="assets/img/galeria/galeria15.jpg" alt="Filtro autolimpiante serie HSBIL" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">15</span>Filtro autolimpiante serie HSBIL</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria16.jpg" data-pie="Filtro autolimpiante serie HSBIL" aria-label="Ampliar: Filtro autolimpiante serie HSBIL">
+          <img src="assets/img/galeria/galeria16.jpg" alt="Filtro autolimpiante serie HSBIL" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">16</span>Filtro autolimpiante serie HSBIL</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria17.jpg" data-pie="Filtro autolimpiante serie HSBIL" aria-label="Ampliar: Filtro autolimpiante serie HSBIL">
+          <img src="assets/img/galeria/galeria17.jpg" alt="Filtro autolimpiante serie HSBIL" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">17</span>Filtro autolimpiante serie HSBIL</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria18.jpg" data-pie="Filtro autolimpiante serie HSBIL Marine" aria-label="Ampliar: Filtro autolimpiante serie HSBIL Marine">
+          <img src="assets/img/galeria/galeria18.jpg" alt="Filtro autolimpiante serie HSBIL Marine" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">18</span>Filtro autolimpiante serie HSBIL Marine</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria19.jpg" data-pie="Filtro autolimpiante serie HSD" aria-label="Ampliar: Filtro autolimpiante serie HSD">
+          <img src="assets/img/galeria/galeria19.jpg" alt="Filtro autolimpiante serie HSD" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">19</span>Filtro autolimpiante serie HSD</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria20.jpg" data-pie="Filtro de bolsas" aria-label="Ampliar: Filtro de bolsas">
+          <img src="assets/img/galeria/galeria20.jpg" alt="Filtro de bolsas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">20</span>Filtro de bolsas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria21.jpg" data-pie="Filtro de cartucho para servicio naval" aria-label="Ampliar: Filtro de cartucho para servicio naval">
+          <img src="assets/img/galeria/galeria21.jpg" alt="Filtro de cartucho para servicio naval" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">21</span>Filtro de cartucho para servicio naval</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria22.jpg" data-pie="Filtro de cartucho doble para servicio naval" aria-label="Ampliar: Filtro de cartucho doble para servicio naval">
+          <img src="assets/img/galeria/galeria22.jpg" alt="Filtro de cartucho doble para servicio naval" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">22</span>Filtro de cartucho doble para servicio naval</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria23.jpg" data-pie="Filtros HSC en una planta de recuperación de agua" aria-label="Ampliar: Filtros HSC en una planta de recuperación de agua">
+          <img src="assets/img/galeria/galeria23.jpg" alt="Filtros HSC en una planta de recuperación de agua" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">23</span>Filtros HSC en una planta de recuperación de agua</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria24.jpg" data-pie="Skid de filtración para servicio offshore" aria-label="Ampliar: Skid de filtración para servicio offshore">
+          <img src="assets/img/galeria/galeria24.jpg" alt="Skid de filtración para servicio offshore" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">24</span>Skid de filtración para servicio offshore</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria25.jpg" data-pie="Filtro separador para combustible" aria-label="Ampliar: Filtro separador para combustible">
+          <img src="assets/img/galeria/galeria25.jpg" alt="Filtro separador para combustible" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">25</span>Filtro separador para combustible</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria26.jpg" data-pie="Filtro de cesta serie HFC" aria-label="Ampliar: Filtro de cesta serie HFC">
+          <img src="assets/img/galeria/galeria26.jpg" alt="Filtro de cesta serie HFC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">26</span>Filtro de cesta serie HFC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria27.jpg" data-pie="Filtro de cesta serie HFC" aria-label="Ampliar: Filtro de cesta serie HFC">
+          <img src="assets/img/galeria/galeria27.jpg" alt="Filtro de cesta serie HFC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">27</span>Filtro de cesta serie HFC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria28.jpg" data-pie="Filtro de cesta serie HFC" aria-label="Ampliar: Filtro de cesta serie HFC">
+          <img src="assets/img/galeria/galeria28.jpg" alt="Filtro de cesta serie HFC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">28</span>Filtro de cesta serie HFC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria29.jpg" data-pie="Filtro de cesta serie HFC" aria-label="Ampliar: Filtro de cesta serie HFC">
+          <img src="assets/img/galeria/galeria29.jpg" alt="Filtro de cesta serie HFC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">29</span>Filtro de cesta serie HFC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria30.jpg" data-pie="Filtro de cesta serie HFC" aria-label="Ampliar: Filtro de cesta serie HFC">
+          <img src="assets/img/galeria/galeria30.jpg" alt="Filtro de cesta serie HFC" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">30</span>Filtro de cesta serie HFC</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria31.jpg" data-pie="Filtro de cesta doble serie HFCD" aria-label="Ampliar: Filtro de cesta doble serie HFCD">
+          <img src="assets/img/galeria/galeria31.jpg" alt="Filtro de cesta doble serie HFCD" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">31</span>Filtro de cesta doble serie HFCD</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria32.jpg" data-pie="Filtro serie FFV para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie FFV para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria32.jpg" alt="Filtro serie FFV para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">32</span>Filtro serie FFV para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria33.jpg" data-pie="Filtro serie FFVG para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie FFVG para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria33.jpg" alt="Filtro serie FFVG para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">33</span>Filtro serie FFVG para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria34.jpg" data-pie="Filtro serie FFVG para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie FFVG para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria34.jpg" alt="Filtro serie FFVG para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">34</span>Filtro serie FFVG para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria35.jpg" data-pie="Filtro serie MMAG para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie MMAG para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria35.jpg" alt="Filtro serie MMAG para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">35</span>Filtro serie MMAG para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria36.jpg" data-pie="Filtro serie MMAG para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie MMAG para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria36.jpg" alt="Filtro serie MMAG para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">36</span>Filtro serie MMAG para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria37.jpg" data-pie="Filtro serie MMAH para servicio de petróleo y gas" aria-label="Ampliar: Filtro serie MMAH para servicio de petróleo y gas">
+          <img src="assets/img/galeria/galeria37.jpg" alt="Filtro serie MMAH para servicio de petróleo y gas" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">37</span>Filtro serie MMAH para servicio de petróleo y gas</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria38.jpg" data-pie="Filtro de cartucho HDF para combustible y servicio general" aria-label="Ampliar: Filtro de cartucho HDF para combustible y servicio general">
+          <img src="assets/img/galeria/galeria38.jpg" alt="Filtro de cartucho HDF para combustible y servicio general" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">38</span>Filtro de cartucho HDF para combustible y servicio general</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria39.jpg" data-pie="Filtro de servicio especial serie HFESP" aria-label="Ampliar: Filtro de servicio especial serie HFESP">
+          <img src="assets/img/galeria/galeria39.jpg" alt="Filtro de servicio especial serie HFESP" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">39</span>Filtro de servicio especial serie HFESP</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria40.jpg" data-pie="Sistema de deshidratación serie HDA" aria-label="Ampliar: Sistema de deshidratación serie HDA">
+          <img src="assets/img/galeria/galeria40.jpg" alt="Sistema de deshidratación serie HDA" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">40</span>Sistema de deshidratación serie HDA</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria41.jpg" data-pie="Ciclón de proceso de alta presión" aria-label="Ampliar: Ciclón de proceso de alta presión">
+          <img src="assets/img/galeria/galeria41.jpg" alt="Ciclón de proceso de alta presión" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">41</span>Ciclón de proceso de alta presión</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria42.jpg" data-pie="Mezclador estático para alta temperatura" aria-label="Ampliar: Mezclador estático para alta temperatura">
+          <img src="assets/img/galeria/galeria42.jpg" alt="Mezclador estático para alta temperatura" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">42</span>Mezclador estático para alta temperatura</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria43.jpg" data-pie="Mezclador estático de servicio general" aria-label="Ampliar: Mezclador estático de servicio general">
+          <img src="assets/img/galeria/galeria43.jpg" alt="Mezclador estático de servicio general" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">43</span>Mezclador estático de servicio general</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria44.jpg" data-pie="Mezclador estático para gases" aria-label="Ampliar: Mezclador estático para gases">
+          <img src="assets/img/galeria/galeria44.jpg" alt="Mezclador estático para gases" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">44</span>Mezclador estático para gases</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria45.jpg" data-pie="Filtro de aspiración de aire" aria-label="Ampliar: Filtro de aspiración de aire">
+          <img src="assets/img/galeria/galeria45.jpg" alt="Filtro de aspiración de aire" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">45</span>Filtro de aspiración de aire</figcaption>
+      </figure></li>
+      <li><figure class="placa">
+        <button class="placa__boton" type="button" data-placa data-grande="assets/img/galeria/galeria46.jpg" data-pie="Cuatro filtros HSC en una central de ciclo combinado" aria-label="Ampliar: Cuatro filtros HSC en una central de ciclo combinado">
+          <img src="assets/img/galeria/galeria46.jpg" alt="Cuatro filtros HSC en una central de ciclo combinado" loading="lazy" width="400" height="278">
+        </button>
+        <figcaption><span class="placa__n">46</span>Cuatro filtros HSC en una central de ciclo combinado</figcaption>
+      </figure></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div class="visor" hidden data-folio="Imagen" role="dialog" aria-modal="true" aria-label="Visor de la galería">
+  <div class="visor__barra">
+    <span class="folio"></span>
+    <button class="visor__btn" type="button" data-visor-ant><svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M16 6H2.6"/><path d="M6.4 1.8 1.4 6l5 4.2" fill="currentColor" stroke="none"/></svg>Anterior</button>
+    <button class="visor__btn" type="button" data-visor-sig>Siguiente<svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></button>
+    <button class="visor__btn" type="button" data-visor-cierra><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m1.5 1.5 11 11M12.5 1.5l-11 11"/></svg>Cerrar</button>
+  </div>
+  <div class="visor__lienzo"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></div>
+  <p class="visor__pie"></p>
+</div>
+
+<section class="ultra-banda">
+  <div class="ultra-banda__inner">
+    <div>
+      <h2>Cuéntanos el fluido, el caudal y la micra.</h2>
+      <p>Con esos tres datos y la posición de la tubería, el departamento técnico propone una serie y una ejecución. Si el proceso no encaja en ninguna serie de catálogo, se diseña.</p>
+      <p class="ultra-banda__acciones" style="margin-top:1.5rem">
+        <a class="btn btn--solido-claro" href="contacto.html">Pedir oferta técnica <svg viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M0 6h13.4"/><path d="M9.6 1.8 14.6 6l-5 4.2" fill="currentColor" stroke="none"/></svg></a>
+        <a class="btn btn--claro" href="tel:+34916967039"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.2 2.8H3.4L2.5 5.6c0 6.6 5.3 11.9 11.9 11.9l2.8-.9v-2.8l-3.7-1.4-1.9 1.9a13 13 0 0 1-4.6-4.6l1.9-1.9L6.2 2.8Z"/></svg>Llamar al +34 916 967 039</a>
+      </p>
+    </div>
+    <div>
+      <ul class="ultra-lista" style="list-style:none;margin:0;padding:0">
+        <li><span class="et">Formularios</span><span class="val"><a href="assets/pdf/Formulario_filtracion_liquidos_1.1.pdf">Filtración de líquidos</a></span></li>
+        <li><span class="et">&nbsp;</span><span class="val"><a href="assets/pdf/Formulario_filtracion_gases_1.1.pdf">Filtración de gases</a></span></li>
+        <li><span class="et">&nbsp;</span><span class="val"><a href="assets/pdf/Formulario_mezcla_de_fluidos_1.1.pdf">Mezcla de fluidos</a></span></li>
+        <li><span class="et">Asistencia técnica</span><span class="val"><a href="#" data-correo="sat|hecisa.com" data-correo-texto></a></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="pie__inner">
+    <div class="pie__rejilla">
+      <div>
+        <p class="pie__marca">HECISA</p>
+        <p class="pie__razon">Hispano Europea de Comercio e Industria, S.L.</p>
+        <address style="margin-top:1rem">
+          Calidad, 24 — Polígono Los Olivos<br>
+          28906 Getafe · Madrid · España<br>
+          <a href="tel:+34916967039">+34 916 967 039</a><br>
+          <a href="#" data-correo="infoweb|hecisa.com" data-correo-texto></a>
+        </address>
+        <p class="pie__lema">La Calidad… como Norma</p>
+      </div>
+      <div>
+        <h2 class="pie__tit">Gama</h2>
+        <ul><li><a href="gama.html">Toda la gama</a></li><li><a href="autolimpiantes.html">Filtros autolimpiantes</a></li><li><a href="filtros.html">Cesta, cartucho y coalescentes</a></li><li><a href="mezcladores.html">Mezcla e instrumentación</a></li><li><a href="ingenieria.html">Ingeniería personalizada</a></li></ul>
+      </div>
+      <div>
+        <h2 class="pie__tit">Empresa</h2>
+        <ul><li><a href="empresa.html">La empresa desde 1984</a></li><li><a href="clientes.html">Clientes</a></li><li><a href="galeria.html">Galería de equipos</a></li><li><a href="noticias.html">Noticias</a></li><li><a href="contacto.html">Contacto y localización</a></li></ul>
+      </div>
+      <div>
+        <h2 class="pie__tit">Documentación</h2>
+        <ul><li><a href="descargas.html">Registro de documentos</a></li><li><a href="assets/pdf/Bro-Gen-14-12_es.pdf">Catálogo general (PDF)</a></li><li><a href="assets/pdf/iso-9001.pdf">Certificado ISO 9001</a></li><li><a href="assets/pdf/NCAGE.pdf">Código NCAGE (OTAN)</a></li><li><a href="assets/pdf/CGV-25-es.pdf">Condiciones generales de venta</a></li><li><a href="assets/pdf/Terminos-de-garantia-V25.pdf">Términos de garantía</a></li></ul>
+      </div>
+    </div>
+
+    <div class="cajetin-plano">
+      <div><span class="et">Documento</span><span class="val">HECISA-WEB-09</span></div>
+      <div><span class="et">Hoja</span><span class="val">09 / 12</span></div>
+      <div><span class="et">Códigos de diseño</span><span class="val">ASME VIII · EN-13445 · PD5500</span></div>
+      <div><span class="et">Calidad</span><span class="val">ISO 9001 · NCAGE</span></div>
+    </div>
+
+    <div class="pie__legal">
+      <p style="margin:0">© <span data-anio>2026</span> Hispano Europea de Comercio e Industria, S.L.. Todos los derechos reservados.</p>
+      <ul>
+        <li>Los datos e información de este sitio son de carácter informativo y pueden variar en función de la aplicación particular.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script>window.HECISA_SERIES=[{"cod":"HSC","nom":"Filtros autolimpiantes a contralavado","busca":"HSC Filtros autolimpiantes a contralavado hsc","url":"autolimpiantes.html#hsc"},{"cod":"HSBI","nom":"Filtros autolimpiantes por rascado","busca":"HSBI Filtros autolimpiantes por rascado hsbi","url":"autolimpiantes.html#hsbi"},{"cod":"HSBIA","nom":"Autolimpiantes con evacuación hidrodinámica","busca":"HSBIA Autolimpiantes con evacuación hidrodinámica hsbia","url":"autolimpiantes.html#hsbia"},{"cod":"HSBIL","nom":"Autolimpiantes por rascado y succión","busca":"HSBIL Autolimpiantes por rascado y succión hsbil","url":"autolimpiantes.html#hsbil"},{"cod":"HFC","nom":"Filtros de cesta","busca":"HFC Filtros de cesta hfc","url":"filtros.html#hfc"},{"cod":"HDF","nom":"Filtro de cartucho de servicio general","busca":"HDF Filtro de cartucho de servicio general hdf","url":"filtros.html#hdf"},{"cod":"HFX","nom":"Filtro de combustible","busca":"HFX Filtro de combustible hfx","url":"filtros.html#hfx"},{"cod":"FFVG","nom":"Filtros coalescentes y separadores FFV, FFVG, MMAG y MMAH","busca":"FFVG Filtros coalescentes y separadores FFV, FFVG, MMAG y MMAH ffvg","url":"filtros.html#ffvg"},{"cod":"HIF","nom":"Filtros de cartuchos HIF, MMA y MMG","busca":"HIF Filtros de cartuchos HIF, MMA y MMG hif","url":"filtros.html#hif"},{"cod":"Mezcladores estáticos","nom":"Mezcladores estáticos","busca":"MEZ Mezcladores estáticos mezcladores-estaticos","url":"mezcladores.html#mezcladores-estaticos"},{"cod":"MFC","nom":"Acondicionadores magnéticos de combustible","busca":"MFC Acondicionadores magnéticos de combustible mfc","url":"mezcladores.html#mfc"},{"cod":"DPG","nom":"Manómetros de presión diferencial","busca":"DPG Manómetros de presión diferencial dpg","url":"mezcladores.html#dpg"},{"cod":"DPT-116","nom":"Transmisor de presión diferencial","busca":"DPT-116 Transmisor de presión diferencial dpt","url":"mezcladores.html#dpt"},{"cod":"HFCD","nom":"Filtro de cesta doble","busca":"hfcd cesta doble duplex basket","url":"filtros.html#hfc"},{"cod":"HSC-J","nom":"Autolimpiante 20–750 m³/h","busca":"hscj","url":"autolimpiantes.html#hsc"},{"cod":"HSC2","nom":"Autolimpiante hasta 22.000 m³/h","busca":"hsc2","url":"autolimpiantes.html#hsc"},{"cod":"HSB","nom":"Autolimpiante, ver HSBI","busca":"hsb hsbj","url":"autolimpiantes.html#hsbi"},{"cod":"HSD","nom":"Autolimpiante, ver galería","busca":"hsd","url":"galeria.html"},{"cod":"HFESP","nom":"Filtro de servicio especial","busca":"hfesp","url":"filtros.html#ffvg"},{"cod":"HDA","nom":"Sistema de deshidratación","busca":"hda","url":"filtros.html#ffvg"},{"cod":"MMAG","nom":"Filtro oil & gas","busca":"mmag mmah","url":"filtros.html#ffvg"}];</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.hecisa.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/index.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/index.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/gama.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/gama.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/range.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/range.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/gama.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/range.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/autolimpiantes.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/autolimpiantes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/self-cleaning-filters.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/self-cleaning-filters.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/autolimpiantes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/self-cleaning-filters.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/filtros.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/filtros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/filters.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/filters.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/filtros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/filters.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/mezcladores.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/mezcladores.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/mixers-instruments.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/mixers-instruments.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/mezcladores.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/mixers-instruments.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/ingenieria.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/ingenieria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/engineering.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/engineering.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/ingenieria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/engineering.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/empresa.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/empresa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/company.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/company.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/empresa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/company.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/clientes.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/clientes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/clients.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/clients.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/clientes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/clients.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/galeria.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/galeria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/gallery.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/galeria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/gallery.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/descargas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/descargas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/downloads.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/descargas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/downloads.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/noticias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/noticias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/news.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/noticias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/news.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/contact.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hecisa.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hecisa.com/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hecisa.com/en/contact.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
